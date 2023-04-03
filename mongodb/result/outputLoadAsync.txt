@@ -1,0 +1,20 @@
+YCSB Client 0.1
+Command line: -db com.yahoo.ycsb.db.AsyncMongoDbClient -s -P workloads/workloadd -p mongodb.url=mongodb://192.168.5.2:27017/ycsb?w=0 -load
+mongo connection created with mongodb://192.168.5.2:27017/ycsb?w=0
+15:09:27.363 [Thread-1] DEBUG c.a.m.c.c.b.BootstrapConnectionFactory - Replica-set bootstrap to 192.168.5.2/192.168.5.2:27017.
+15:09:27.737 [MongoDB Pinger] DEBUG c.a.m.client.state.ClusterPinger - Pinger interrupted.
+[OVERALL], RunTime(ms), 564.0
+[OVERALL], Throughput(ops/sec), 1773.049645390071
+[CLEANUP], Operations, 1.0
+[CLEANUP], AverageLatency(us), 1889.0
+[CLEANUP], MinLatency(us), 1889.0
+[CLEANUP], MaxLatency(us), 1889.0
+[CLEANUP], 95thPercentileLatency(us), 1889.0
+[CLEANUP], 99thPercentileLatency(us), 1889.0
+[INSERT], Operations, 1000.0
+[INSERT], AverageLatency(us), 438.084
+[INSERT], MinLatency(us), 39.0
+[INSERT], MaxLatency(us), 266239.0
+[INSERT], 95thPercentileLatency(us), 384.0
+[INSERT], 99thPercentileLatency(us), 704.0
+[INSERT], Return=OK, 1000
