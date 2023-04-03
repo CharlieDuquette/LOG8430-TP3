@@ -7,13 +7,17 @@
 4. install npm 6.14.16 
 5. install node 12.22.12
 ### Run test
-1. cd fabric/
-2. ./run-test.sh
+Run the following command to execute the tests : 
+> $ cd fabric/ 
+>
+> $ ./run-test.sh 
 ## Testing MongoDB With YCSB
 ### Prerequisite
 1. install docker
 2. install java
 3. install maven
 ### Run test
-1. cd mongodb/
-2. ./run-test.sh
+Run the following command to execute the tests : 
+> $ cd mongodb/ 
+>
+> $ ./run-test.sh 
