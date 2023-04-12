@@ -2,7 +2,7 @@
 ## Testing Hyperledger Fabric With Hyperledger Caliper
 ### Prerequisite
 1. install docker
-2. install pythom 2.7
+2. install python 2.7
 3. install nvm 0.25.0
 4. install npm 6.14.16 
 5. install node 12.22.12
